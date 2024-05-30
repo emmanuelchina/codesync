@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 62, 68);
+}
+.one{
+    width: 45%;
+    height: 500px;
+    background-color: rgb(8, 26, 36);
+    padding: 15px;
+    padding-right: 0%;
+}
+.two{
+    width: 45%;
+    height:500px;
+    background-color: rgb(8, 26, 36);
+    padding: 15px ;
+    padding-left: 0%;
+}
+.one ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10%;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 5px;
+    margin-left: 19%;
+    margin-top: 10px;
+    color: white;
+   background-color: input ;
+}
+.two ol{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 15%;
+    color: white;
+}
+.custom{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* padding: 2px; */
+    border: 1px solid rgb(21, 74, 82);
+    border-radius: 10px;         
+    width: 430px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+    background-color: rgb(8, 39, 44);
+}
+.man{
+    border: 1px solid;
+    padding: 11px;
+    border-radius: 10px ;
+    color: white;
+    background-color: rgb(7, 44, 50);
+    border: rgb(21, 74, 82);
+}
+.man h5{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
